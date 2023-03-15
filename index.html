@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>GOOGLE VS MOBILE-NET</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    </head>
+    <body>
+        <center>
+             <p>Study case between google lens and moblie net to see which is more accurate.</p>
+            <span><h1>GOOGLE LENS</h1>
+                <img src="google lens.png" style="height:150px ; width:'150px" id="google">
+            </span>
+            <br><h2>VS</h2>
+            <br><h1 id="mobile" class=" btn btn-info" >Mobile-Net</h1>   
+            <hr>
+            <div>
+                <h1 id="t1">1. Test image - </h1>
+                <img src="img 1 .jpg" id="t1">
+                <h1 id="title">Google Lens results: </h1>
+                <h1 id="answer">HP wireless laser mouse.</h1>
+
+                <h1 id="title">Mobile-Net predefined model results: </h1>
+                <h1 id="answer">Rusksack or a backpack.</h1>
+                
+                <h1 id="title">Overall acurracy: </h1>
+                <h1 id="answer">Overall i think that google lens is more accurate in this case because this a mouse not a backpack.</h1>
+            </div>
+            <br><br><br>
+            <div>
+                <h1 id="t1">2. Test image - </h1>
+                <img src="img 2.jpeg" id="t1">
+                <h1 id="title">Google Lens results: </h1>
+                <h1 id="answer">Google Lens identified this as a 20c coin.</h1>
+
+                <h1 id="title">Mobile-Net predefined model results: </h1>
+                <h1 id="answer">Mobile-Net identified this as a spot or hole.</h1>
+                
+                <h1 id="title">Overall acurracy: </h1>
+                <h1 id="answer">As the data shows this is a 20c coin and only google lens identified it correctly therefore i think google lens is better in this situation.</h1>
+            </div>
+            <br><br><br>
+            <div>
+                <h1 id="t1">3. Test image - </h1>
+                <img src="img 3.jpeg" id="t1">
+                <h1 id="title">Google Lens results: </h1>
+                <h1 id="answer">Google Lens identified this as a Nivea strawberry lip gloss. </h1>
+
+                <h1 id="title">Mobile-Net predefined model results: </h1>
+                <h1 id="answer">Mobile-Net identified this as a pinball, punching bag or punchball.</h1>
+                
+                <h1 id="title">Overall acurracy: </h1>
+                <h1 id="answer">As the data shows this is a Nivea lop gloss and not and pinball punching bag or punchball therefore i trust Google Lens in this case.</h1>
+            </div>
+            <br><br><br>
+            <div>
+                <h1 id="t1">4. Test image - </h1>
+                <img src="img 4.avif" id="t1">
+                <h1 id="title">Google Lens results: </h1>
+                <h1 id="answer">Mobile-Net identified this as a black detangling comb.</h1>
+
+                <h1 id="title">Mobile-Net predefined model results: </h1>
+                <h1 id="answer"> Mobile-Net identified this as a TV remote.</h1>
+                
+                <h1 id="title">Overall acurracy: </h1>
+                <h1 id="answer">As the data shows this is a black comb and not a TV remote therefore i trust Google Lens better that Mobile-net.</h1>
+            </div>
+            <br><br><br>
+            <h1 id="review">Overall i think that Google Lens is stronger that Mobile-Net because it has more data and the results are more accurate.</h1>
+            <h1 id="review">Also because it not only gives you what the item is but also where to get it from and diffrent varities.</h1>
+
+        </center>
+    </body>
+</html>

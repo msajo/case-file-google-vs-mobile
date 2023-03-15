@@ -1,0 +1,39 @@
+body{
+    font-family:fantasy;
+}
+p{
+    color: red;
+    font-size: 25px;
+}
+#mobile{
+    width:10% ; 
+    font-size: 30px;
+}
+#t1{
+    float: left;
+    font-family:fantasy;
+    font-weight: bold;
+}
+img{
+    width: 150px;
+    height: 150px; 
+}
+div{
+    background-color: gray;
+}
+h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+#title{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: palevioletred;
+}
+#answer{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aquamarine;
+}
+#review{
+    font-family: cursive;
+    color: rgb(165, 87, 244);
+}
