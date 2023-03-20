@@ -28,10 +28,12 @@ h1{
 #title{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: palevioletred;
+    font-size: 15px;
 }
 #answer{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: aquamarine;
+    font-size: 15px;
 }
 #review{
     font-family: cursive;
